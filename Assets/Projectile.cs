@@ -26,8 +26,15 @@ public class Projectile : MonoBehaviour
         if (other.CompareTag("Player") || other.isTrigger) return;
 
         if (other.CompareTag("Enemy"))
-            Destroy(other.gameObject); // por ahora el enemigo muere de un disparo
+        {
+            EnemyPurge purge = other.GetComponent<EnemyPurge>();
+            EnemyDeath death = other.GetComponent<EnemyDeath>();
 
-        Destroy(gameObject); // choca con enemigo o pared
+            if (purge != null) purge.Die();
+            else if (death != null) death.Die();
+            else Destroy(other.gameObject);
+        }
+
+        Destroy(gameObject);
     }
 }

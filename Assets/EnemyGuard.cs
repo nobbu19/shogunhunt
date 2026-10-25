@@ -7,6 +7,7 @@ public class EnemyGuard : MonoBehaviour
     [SerializeField] private Transform[] waypoints;
     [SerializeField] private float speed = 2f;
     [SerializeField] private float waitTime = 1f;
+    [SerializeField] private float bodyRadius = 0.3f;
 
     [Header("Visión")]
     [SerializeField] private Transform lightPivot;

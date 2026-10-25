@@ -4,15 +4,22 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movimiento")]
-    [SerializeField] private float speed = 5f;
+    [SerializeField] private float speed = 10f;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator animator;
 
     [Header("Dash")]
     [SerializeField] private KeyCode dashKey = KeyCode.LeftShift;
-    [SerializeField] private float dashSpeed = 15f;
-    [SerializeField] private float dashDuration = 0.15f;
-    [SerializeField] private float dashCooldown = 0.5f;
+    [SerializeField] private float dashSpeed = 30f;
+    [SerializeField] private float dashDuration = 0.2f;
+    [SerializeField] private float dashCooldown = 0.7f;
+
+    [Header("Efecto del dash")]
+    [SerializeField] private Color afterImageColor = new Color(0.4f, 0.6f, 1f, 0.6f);
+    [SerializeField] private float afterImageInterval = 0.02f;
+    [SerializeField] private float afterImageFade = 0.25f;
+    [SerializeField] private TrailRenderer trail;
+    [SerializeField] private float stretch = 1.3f;
 
     [Header("Disparo")]
     [SerializeField] private KeyCode shootKey = KeyCode.J;
@@ -29,6 +36,9 @@ public class PlayerMovement : MonoBehaviour
     private float cooldownTimer;
     private Vector2 dashDirection;
 
+    private float afterImageTimer;
+    private Vector3 baseScale;
+
     private int shotsLeft;
 
     private static readonly int IsDashingHash = Animator.StringToHash("IsDashing");
@@ -43,14 +53,12 @@ public class PlayerMovement : MonoBehaviour
         if (animator == null)
             animator = GetComponentInChildren<Animator>();
 
+        baseScale = spriteRenderer.transform.localScale;
         shotsLeft = maxShots;
     }
 
     void Update()
     {
-
-
-
         if (Time.timeScale == 0f) return;
         cooldownTimer -= Time.deltaTime;
 
@@ -58,6 +66,14 @@ public class PlayerMovement : MonoBehaviour
         if (isDashing)
         {
             dashTimer -= Time.deltaTime;
+
+            afterImageTimer -= Time.deltaTime;
+            if (afterImageTimer <= 0f)
+            {
+                SpawnAfterImage();
+                afterImageTimer = afterImageInterval;
+            }
+
             if (dashTimer <= 0f) EndDash();
             return;
         }
@@ -95,6 +111,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool(FacingUpHash, facing.y > 0f); // arriba o diagonales hacia arriba
     }
 
+    // ---------- Dash ----------
     private void StartDash()
     {
         isDashing = true;
@@ -103,6 +120,13 @@ public class PlayerMovement : MonoBehaviour
         dashDirection = input != Vector2.zero ? input : facing;
 
         if (animator != null) animator.SetBool(IsDashingHash, true);
+
+        SpawnAfterImage();
+        afterImageTimer = afterImageInterval;
+
+        if (trail != null) trail.emitting = true;
+        if (DashDistortion.Instance != null) DashDistortion.Instance.Pulse();
+        ApplyStretch(true);
     }
 
     private void EndDash()
@@ -111,8 +135,31 @@ public class PlayerMovement : MonoBehaviour
         cooldownTimer = dashCooldown;
 
         if (animator != null) animator.SetBool(IsDashingHash, false);
+
+        if (trail != null) trail.emitting = false;
+        ApplyStretch(false);
     }
 
+    private void SpawnAfterImage()
+    {
+        GameObject go = new GameObject("AfterImage");
+        go.AddComponent<AfterImage>().Init(spriteRenderer, afterImageColor, afterImageFade);
+    }
+
+    private void ApplyStretch(bool on)
+    {
+        Transform t = spriteRenderer.transform;
+        if (t == transform) return; // no escalar el objeto que tiene el collider
+
+        if (!on) { t.localScale = baseScale; return; }
+
+        bool horizontal = Mathf.Abs(dashDirection.x) >= Mathf.Abs(dashDirection.y);
+        t.localScale = horizontal
+            ? new Vector3(baseScale.x * stretch, baseScale.y / stretch, baseScale.z)
+            : new Vector3(baseScale.x / stretch, baseScale.y * stretch, baseScale.z);
+    }
+
+    // ---------- Disparo ----------
     private void Shoot()
     {
         shotsLeft--;

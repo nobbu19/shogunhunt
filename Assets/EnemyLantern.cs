@@ -5,6 +5,7 @@ public class EnemyLantern : MonoBehaviour
     [Header("Giro")]
     [SerializeField] private float rotationSpeed = 40f; // grados por segundo (negativo = sentido horario)
     [SerializeField] private Vector2 startFacing = Vector2.down;
+    [SerializeField] private float bodyRadius = 0.3f;
 
     [Header("Visión")]
     [SerializeField] private Transform lightPivot;

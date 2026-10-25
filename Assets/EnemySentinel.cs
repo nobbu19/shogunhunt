@@ -12,7 +12,7 @@ public class EnemySentinel : MonoBehaviour
     [Header("Giro")]
     [SerializeField] private LookPoint[] lookPoints;
     [SerializeField] private float rotateSpeed = 90f; // grados por segundo
-
+    [SerializeField] private float bodyRadius = 0.3f;
     [Header("Visión")]
     [SerializeField] private Transform lightPivot;
     [SerializeField] private float viewDistance = 5f;
