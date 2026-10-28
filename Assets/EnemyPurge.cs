@@ -19,4 +19,9 @@ public class EnemyPurge : MonoBehaviour
         if (death != null) death.Die();
         else Destroy(target);
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") && GameOverManager.Instance != null)
+            GameOverManager.Instance.ShowGameOver();
+    }
 }
