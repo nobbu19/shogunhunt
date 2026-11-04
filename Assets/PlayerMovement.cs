@@ -104,6 +104,16 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = isDashing ? dashDirection * dashSpeed : input * speed;
     }
 
+    // ---------- Game Over al tocar un enemigo ----------
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Para que el dash atraviese enemigos sin perder, descomenta la línea siguiente:
+        // if (isDashing) return;
+
+        if (collision.gameObject.CompareTag("Enemy") && GameOverManager.Instance != null)
+            GameOverManager.Instance.ShowGameOver(); // o .Restart() para reinicio inmediato
+    }
+
     private void UpdateAnimator()
     {
         if (animator == null) return;

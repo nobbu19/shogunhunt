@@ -22,7 +22,6 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Ignora al jugador y a triggers (como conos de visión)
         if (other.CompareTag("Player") || other.isTrigger) return;
 
         if (other.CompareTag("Enemy"))
@@ -31,8 +30,8 @@ public class Projectile : MonoBehaviour
             EnemyDeath death = other.GetComponent<EnemyDeath>();
 
             if (purge != null) purge.Die();
-            else if (death != null) death.Die();
-            else Destroy(other.gameObject);
+            else if (death != null) death.Die();   // aquí sale el efecto de muerte
+            else Destroy(other.gameObject);        // sin EnemyDeath muere sin efecto
         }
 
         Destroy(gameObject);
