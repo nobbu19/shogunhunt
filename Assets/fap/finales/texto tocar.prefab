@@ -157,6 +157,6 @@ MonoBehaviour:
   dialogueId: 
   prompt: {fileID: 0}
   lines:
-  - 'Este es un objetivo de interes un monje controlador de los vigias  '
-  - 'una ves los mates estos moriran a la par sin embargo no siempre sera facil dar
-    con ellos  '
+  - 'verdad '
+  - 'como ultimo intel un nuevo enemigo fue avistado '
+  - 'te aguarda lo que es un samurai que se movera  por el castillo '

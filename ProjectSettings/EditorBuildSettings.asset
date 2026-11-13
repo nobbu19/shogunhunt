@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/finales/5 intro2.unity
     guid: f8be67128cab6134fac70cba74e6620d
+  - enabled: 1
+    path: Assets/Scenes/finales/6 intro3.unity
+    guid: 79018a060401a0b4b90bb8c59f1e27c7
+  - enabled: 1
+    path: Assets/Scenes/finales/7 nivel 1.unity
+    guid: 194d0baa90bb6354f921186e161e4b8b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
