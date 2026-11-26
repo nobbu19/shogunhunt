@@ -12,28 +12,20 @@ public class EnemySentinel : MonoBehaviour
     [Header("Giro")]
     [SerializeField] private LookPoint[] lookPoints;
     [SerializeField] private float rotateSpeed = 90f; // grados por segundo
-    [SerializeField] private float bodyRadius = 0.3f;
+
     [Header("Visión")]
     [SerializeField] private Transform lightPivot;
     [SerializeField] private float viewDistance = 5f;
     [SerializeField, Range(10f, 180f)] private float viewAngle = 60f;
     [SerializeField] private LayerMask obstacleMask;
 
-    [Header("Detección")]
-    [SerializeField] private float detectionTime = 0.3f;
-    [SerializeField] private float cooldownSpeed = 1f;
-
     private Transform player;
     private float currentAngle;
     private int index;
     private bool waiting;
     private float waitTimer;
-    private float detectionTimer;
-    private bool detected;
 
     private Vector2 Facing => Quaternion.Euler(0f, 0f, currentAngle) * Vector3.up;
-
-    public float DetectionProgress => detectionTimer / detectionTime;
 
     void Awake()
     {
@@ -56,21 +48,8 @@ public class EnemySentinel : MonoBehaviour
 
         if (player == null) return;
 
-        if (CanSeePlayer())
-            detectionTimer += Time.deltaTime;
-        else
-            detectionTimer = Mathf.Max(0f, detectionTimer - cooldownSpeed * Time.deltaTime);
-
-        if (detectionTimer >= detectionTime && !detected)
-        {
-            detected = true;
-            Debug.Log("¡Te vio!");
-            if (GameOverManager.Instance != null)
-                GameOverManager.Instance.ShowGameOver();
-        }
-
-        if (detectionTimer < detectionTime)
-            detected = false;
+        if (CanSeePlayer() && DetectionMeter.Instance != null)
+            DetectionMeter.Instance.ReportSeen();
     }
 
     private void Rotate()

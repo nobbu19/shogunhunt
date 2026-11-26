@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class EnemyGuard : MonoBehaviour
 {
@@ -7,7 +6,6 @@ public class EnemyGuard : MonoBehaviour
     [SerializeField] private Transform[] waypoints;
     [SerializeField] private float speed = 2f;
     [SerializeField] private float waitTime = 1f;
-    [SerializeField] private float bodyRadius = 0.3f;
 
     [Header("Visión")]
     [SerializeField] private Transform lightPivot;
@@ -15,24 +13,18 @@ public class EnemyGuard : MonoBehaviour
     [SerializeField, Range(10f, 180f)] private float viewAngle = 60f;
     [SerializeField] private LayerMask obstacleMask;
     [SerializeField] private Vector2 startFacing = Vector2.down;
-
-    [Header("Detección")]
-    [SerializeField] private float detectionTime = 2f;
-    [SerializeField] private float cooldownSpeed = 1f;
+    [SerializeField] private float turnSpeed = 180f; // grados por segundo al girar el cono
 
     private Transform player;
-    private Vector2 facing;
+    private Vector2 facing;        // hacia dónde apunta el cono ahora
+    private Vector2 targetFacing;  // hacia dónde debe apuntar
     private int index;
     private float waitTimer;
-    private float detectionTimer;
-    private bool detected;
-
-    // Por si luego quieres una barra o cambiar el color de la luz
-    public float DetectionProgress => detectionTimer / detectionTime;
 
     void Awake()
     {
         facing = startFacing.normalized;
+        targetFacing = facing;
 
         GameObject p = GameObject.FindGameObjectWithTag("Player");
         if (p != null) player = p.transform;
@@ -41,27 +33,13 @@ public class EnemyGuard : MonoBehaviour
     void Update()
     {
         Patrol();
+        RotateFacing();
         UpdateLight();
 
         if (player == null) return;
 
-        if (CanSeePlayer())
-            detectionTimer += Time.deltaTime;
-        else
-            detectionTimer = Mathf.Max(0f, detectionTimer - cooldownSpeed * Time.deltaTime);
-
-        // Pasó el tiempo de detección: avisa una sola vez
-        if (detectionTimer >= detectionTime && !detected)
-        {
-            detected = true;
-            Debug.Log("¡Te vio!");
-            if (GameOverManager.Instance != null)
-                GameOverManager.Instance.ShowGameOver();
-        }
-
-        // Cuando vuelve a bajar del umbral, permite avisar de nuevo
-        if (detectionTimer < detectionTime)
-            detected = false;
+        if (CanSeePlayer() && DetectionMeter.Instance != null)
+            DetectionMeter.Instance.ReportSeen();
     }
 
     private void Patrol()
@@ -71,6 +49,10 @@ public class EnemyGuard : MonoBehaviour
         if (waitTimer > 0f)
         {
             waitTimer -= Time.deltaTime;
+
+            // Mientras espera, empieza a girar hacia el siguiente punto
+            Vector2 toNext = (Vector2)waypoints[index].position - (Vector2)transform.position;
+            if (toNext.sqrMagnitude > 0.0001f) targetFacing = toNext.normalized;
             return;
         }
 
@@ -80,7 +62,7 @@ public class EnemyGuard : MonoBehaviour
 
         if (dir.magnitude > 0.05f)
         {
-            facing = dir.normalized;
+            targetFacing = dir.normalized;
             transform.position = Vector2.MoveTowards(pos, target, speed * Time.deltaTime);
         }
         else
@@ -88,6 +70,16 @@ public class EnemyGuard : MonoBehaviour
             index = (index + 1) % waypoints.Length;
             waitTimer = waitTime;
         }
+    }
+
+    // Gira el cono poco a poco hacia targetFacing
+    private void RotateFacing()
+    {
+        float current = Mathf.Atan2(facing.y, facing.x) * Mathf.Rad2Deg;
+        float target = Mathf.Atan2(targetFacing.y, targetFacing.x) * Mathf.Rad2Deg;
+        float next = Mathf.MoveTowardsAngle(current, target, turnSpeed * Time.deltaTime);
+
+        facing = new Vector2(Mathf.Cos(next * Mathf.Deg2Rad), Mathf.Sin(next * Mathf.Deg2Rad));
     }
 
     private bool CanSeePlayer()

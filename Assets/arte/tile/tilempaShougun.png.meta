@@ -1,0 +1,1963 @@
+fileFormatVersion: 2
+guid: eecaabdd490da294295dc87c942c4dfd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1678427948081781685
+    second: tilempaShougun_0
+  - first:
+      213: 6070108146859293258
+    second: tilempaShougun_1
+  - first:
+      213: -5206874500591450694
+    second: tilempaShougun_2
+  - first:
+      213: -2964240272045801944
+    second: tilempaShougun_3
+  - first:
+      213: 7545567488757475919
+    second: tilempaShougun_4
+  - first:
+      213: -3930438469077203400
+    second: tilempaShougun_5
+  - first:
+      213: -5268060531377597037
+    second: tilempaShougun_6
+  - first:
+      213: -6364412889271614263
+    second: tilempaShougun_7
+  - first:
+      213: -6948875578649875780
+    second: tilempaShougun_8
+  - first:
+      213: 5635247159809773307
+    second: tilempaShougun_9
+  - first:
+      213: -8020584197934126747
+    second: tilempaShougun_10
+  - first:
+      213: -6422806665638515374
+    second: tilempaShougun_11
+  - first:
+      213: 2668403954408149365
+    second: tilempaShougun_12
+  - first:
+      213: -2784533051846617879
+    second: tilempaShougun_13
+  - first:
+      213: -5846908668384475919
+    second: tilempaShougun_14
+  - first:
+      213: 7531403003794011121
+    second: tilempaShougun_15
+  - first:
+      213: -6128995292590195603
+    second: tilempaShougun_16
+  - first:
+      213: 2881787589320863884
+    second: tilempaShougun_17
+  - first:
+      213: -2954189303980092649
+    second: tilempaShougun_18
+  - first:
+      213: 7509479517968110530
+    second: tilempaShougun_19
+  - first:
+      213: 5536109158147498808
+    second: tilempaShougun_20
+  - first:
+      213: 4226838958617105200
+    second: tilempaShougun_21
+  - first:
+      213: -413217149207744235
+    second: tilempaShougun_22
+  - first:
+      213: 4193792264224620232
+    second: tilempaShougun_23
+  - first:
+      213: 8916173519399653011
+    second: tilempaShougun_24
+  - first:
+      213: -1300241398651491061
+    second: tilempaShougun_25
+  - first:
+      213: -4503883741736574935
+    second: tilempaShougun_26
+  - first:
+      213: 5246215852215855151
+    second: tilempaShougun_27
+  - first:
+      213: -7596786373567949419
+    second: tilempaShougun_28
+  - first:
+      213: 7420218703727159116
+    second: tilempaShougun_29
+  - first:
+      213: -6963314040681664315
+    second: tilempaShougun_30
+  - first:
+      213: 2590754001104388897
+    second: tilempaShougun_31
+  - first:
+      213: -155277827903406199
+    second: tilempaShougun_32
+  - first:
+      213: 4220604979164699594
+    second: tilempaShougun_33
+  - first:
+      213: -6985430950773138532
+    second: tilempaShougun_34
+  - first:
+      213: 1110969385756952407
+    second: tilempaShougun_35
+  - first:
+      213: -8047959317131352439
+    second: tilempaShougun_36
+  - first:
+      213: 9020637154160655597
+    second: tilempaShougun_37
+  - first:
+      213: 164974461171054894
+    second: tilempaShougun_38
+  - first:
+      213: -3668606708171136802
+    second: tilempaShougun_39
+  - first:
+      213: -1945027305484788633
+    second: tilempaShougun_40
+  - first:
+      213: 5268849593321719954
+    second: tilempaShougun_41
+  - first:
+      213: -2406006210344301007
+    second: tilempaShougun_42
+  - first:
+      213: -6890380326301824546
+    second: tilempaShougun_43
+  - first:
+      213: 5856112705629833624
+    second: tilempaShougun_44
+  - first:
+      213: 7972979305668768005
+    second: tilempaShougun_45
+  - first:
+      213: -4955187804005081773
+    second: tilempaShougun_46
+  - first:
+      213: 2033567017680154696
+    second: tilempaShougun_47
+  - first:
+      213: -8920023840024591044
+    second: tilempaShougun_48
+  - first:
+      213: -2047123228404634116
+    second: tilempaShougun_49
+  - first:
+      213: 1785015626539685336
+    second: tilempaShougun_50
+  - first:
+      213: -8292473347770461980
+    second: tilempaShougun_51
+  - first:
+      213: -8775988439238233715
+    second: tilempaShougun_52
+  - first:
+      213: 7171827404505958245
+    second: tilempaShougun_53
+  - first:
+      213: -1677921312117518636
+    second: tilempaShougun_54
+  - first:
+      213: -1624532369455055383
+    second: tilempaShougun_55
+  - first:
+      213: -7859797254365667305
+    second: tilempaShougun_56
+  - first:
+      213: -8868057878448881961
+    second: tilempaShougun_57
+  - first:
+      213: -8876078719354030625
+    second: tilempaShougun_58
+  - first:
+      213: -7500922112044748042
+    second: tilempaShougun_59
+  - first:
+      213: -5300965809485342886
+    second: tilempaShougun_60
+  - first:
+      213: 4732558589281229950
+    second: tilempaShougun_61
+  - first:
+      213: -7590373110994929340
+    second: tilempaShougun_62
+  - first:
+      213: -158428036948729769
+    second: tilempaShougun_63
+  - first:
+      213: -4909351527902704168
+    second: tilempaShougun_64
+  - first:
+      213: -5943678406138940956
+    second: tilempaShougun_65
+  - first:
+      213: 5422416398860039564
+    second: tilempaShougun_66
+  - first:
+      213: -725007245050564717
+    second: tilempaShougun_67
+  - first:
+      213: -6522852073700776642
+    second: tilempaShougun_68
+  - first:
+      213: 2369750116566600605
+    second: tilempaShougun_69
+  - first:
+      213: 5023336697331765410
+    second: tilempaShougun_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilempaShougun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb908a7359fa4710800000000000000
+      internalID: 1678427948081781685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 431
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ab0c1e23b5d3450800000000000000
+      internalID: 6070108146859293258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 463
+        width: 50
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5053a9a377db7b0800000000000000
+      internalID: -5206874500591450694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 431
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e7dc38d27ecd6d0800000000000000
+      internalID: -2964240272045801944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 431
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a202427ad37b860800000000000000
+      internalID: 7545567488757475919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 431
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8368f1769074479c0800000000000000
+      internalID: -3930438469077203400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 431
+        width: 9
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3959bfbabd614e6b0800000000000000
+      internalID: -5268060531377597037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 431
+        width: 9
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c44c0382301da7a0800000000000000
+      internalID: -6364412889271614263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_8
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 431
+        width: 9
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbaef2a5a72a09f90800000000000000
+      internalID: -6948875578649875780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_9
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 431
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe8dfd5f6b643e40800000000000000
+      internalID: 5635247159809773307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5696607ba2921b090800000000000000
+      internalID: -8020584197934126747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 367
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dea99fd5b9dd6a0800000000000000
+      internalID: -6422806665638515374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571debb3243180520800000000000000
+      internalID: 2668403954408149365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_13
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 367
+        width: 12
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4195341f95b59d0800000000000000
+      internalID: -2784533051846617879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 399
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f48aca5b8b9bdea0800000000000000
+      internalID: -5846908668384475919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 367
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3b37df02be48860800000000000000
+      internalID: 7531403003794011121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 383
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cbe13114f61faa0800000000000000
+      internalID: -6128995292590195603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 408
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80799b4b8a2ef720800000000000000
+      internalID: 2881787589320863884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 399
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7131201ea7c9007d0800000000000000
+      internalID: -2954189303980092649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_19
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 399
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c39f8ca5d7073860800000000000000
+      internalID: 7509479517968110530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 383
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8332b21a2f534dc40800000000000000
+      internalID: 5536109158147498808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 367
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033972b53afb8aa30800000000000000
+      internalID: 4226838958617105200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5117f5e2135f34af0800000000000000
+      internalID: -413217149207744235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_23
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceb3ea38d7533a30800000000000000
+      internalID: 4193792264224620232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e8f83739c9cbb70800000000000000
+      internalID: 8916173519399653011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0dee1f365d94fde0800000000000000
+      internalID: -1300241398651491061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_26
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 278
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9206228799dfe71c0800000000000000
+      internalID: -4503883741736574935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28695e958d4ec840800000000000000
+      internalID: 5246215852215855151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_28
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 319
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59554f0fa0bc29690800000000000000
+      internalID: -7596786373567949419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_29
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 335
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47ed57d899e9f660800000000000000
+      internalID: 7420218703727159116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0fda1f5c65d5f90800000000000000
+      internalID: -6963314040681664315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_31
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 272
+        width: 12
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123cf30a90534f320800000000000000
+      internalID: 2590754001104388897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 271
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fb25263a758ddf0800000000000000
+      internalID: -155277827903406199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 294
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb5b58edd9929a30800000000000000
+      internalID: 4220604979164699594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 304
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bd5288f83ce0f90800000000000000
+      internalID: -6985430950773138532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_35
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 303
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757806a25c4fa6f00800000000000000
+      internalID: 1110969385756952407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_36
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 271
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986279714a7ef4090800000000000000
+      internalID: -8047959317131352439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_37
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 255
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decbf65c2bdbf2d70800000000000000
+      internalID: 9020637154160655597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_38
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 255
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29bc1bf56b1a4200800000000000000
+      internalID: 164974461171054894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 279
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed028d2d2ad761dc0800000000000000
+      internalID: -3668606708171136802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_40
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cd42a88ffd105e0800000000000000
+      internalID: -1945027305484788633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_41
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 223
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29807e02ac6be1940800000000000000
+      internalID: 5268849593321719954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_42
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 223
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e4b0969162c9ed0800000000000000
+      internalID: -2406006210344301007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_43
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 243
+        width: 50
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9807b99937060a0800000000000000
+      internalID: -6890380326301824546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_44
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 239
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899c7bf8a77154150800000000000000
+      internalID: 5856112705629833624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_45
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 207
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5017de39f66b5ae60800000000000000
+      internalID: 7972979305668768005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_46
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 207
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dddea22f2ab3bb0800000000000000
+      internalID: -4955187804005081773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_47
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 207
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840b6c3ad6ea83c10800000000000000
+      internalID: 2033567017680154696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 223
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35815be395b53480800000000000000
+      internalID: -8920023840024591044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_49
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 191
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdad7715482793e0800000000000000
+      internalID: -2047123228404634116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_50
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 223
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d55b624146a5c810800000000000000
+      internalID: 1785015626539685336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 191
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e05fb4fc673bec80800000000000000
+      internalID: -8292473347770461980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_52
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 175
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81354ef20d653680800000000000000
+      internalID: -8775988439238233715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_53
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 111
+        width: 79
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5674df3c603778360800000000000000
+      internalID: 7171827404505958245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de8d26e473d6b8e0800000000000000
+      internalID: -1677921312117518636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_55
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 179
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edf188ca608479e0800000000000000
+      internalID: -1624532369455055383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_56
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 111
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710a1f64a046ce290800000000000000
+      internalID: -7859797254365667305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_57
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 143
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de337338545ee480800000000000000
+      internalID: -8868057878448881961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_58
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 127
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5bf76ae65d1d480800000000000000
+      internalID: -8876078719354030625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_59
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 143
+        width: 45
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f233b7a41f57e790800000000000000
+      internalID: -7500922112044748042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5792279eaf2f66b0800000000000000
+      internalID: -5300965809485342886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_61
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 31
+        width: 70
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cd4d876fc6da140800000000000000
+      internalID: 4732558589281229950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_62
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 79
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449787efed399a690800000000000000
+      internalID: -7590373110994929340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_63
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 63
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750653f2a862dcdf0800000000000000
+      internalID: -158428036948729769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_64
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd86d5dbca7edbb0800000000000000
+      internalID: -4909351527902704168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_65
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 79
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1bde60bffc38da0800000000000000
+      internalID: -5943678406138940956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_66
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c853e4e4cfa404b40800000000000000
+      internalID: 5422416398860039564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_67
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 63
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f2d2b70c140f5f0800000000000000
+      internalID: -725007245050564717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_68
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3525a8399c2a75a0800000000000000
+      internalID: -6522852073700776642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_69
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b8460fc2b03e020800000000000000
+      internalID: 2369750116566600605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilempaShougun_70
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0d4a78c1a76b540800000000000000
+      internalID: 5023336697331765410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tilempaShougun_0: 1678427948081781685
+      tilempaShougun_1: 6070108146859293258
+      tilempaShougun_10: -8020584197934126747
+      tilempaShougun_11: -6422806665638515374
+      tilempaShougun_12: 2668403954408149365
+      tilempaShougun_13: -2784533051846617879
+      tilempaShougun_14: -5846908668384475919
+      tilempaShougun_15: 7531403003794011121
+      tilempaShougun_16: -6128995292590195603
+      tilempaShougun_17: 2881787589320863884
+      tilempaShougun_18: -2954189303980092649
+      tilempaShougun_19: 7509479517968110530
+      tilempaShougun_2: -5206874500591450694
+      tilempaShougun_20: 5536109158147498808
+      tilempaShougun_21: 4226838958617105200
+      tilempaShougun_22: -413217149207744235
+      tilempaShougun_23: 4193792264224620232
+      tilempaShougun_24: 8916173519399653011
+      tilempaShougun_25: -1300241398651491061
+      tilempaShougun_26: -4503883741736574935
+      tilempaShougun_27: 5246215852215855151
+      tilempaShougun_28: -7596786373567949419
+      tilempaShougun_29: 7420218703727159116
+      tilempaShougun_3: -2964240272045801944
+      tilempaShougun_30: -6963314040681664315
+      tilempaShougun_31: 2590754001104388897
+      tilempaShougun_32: -155277827903406199
+      tilempaShougun_33: 4220604979164699594
+      tilempaShougun_34: -6985430950773138532
+      tilempaShougun_35: 1110969385756952407
+      tilempaShougun_36: -8047959317131352439
+      tilempaShougun_37: 9020637154160655597
+      tilempaShougun_38: 164974461171054894
+      tilempaShougun_39: -3668606708171136802
+      tilempaShougun_4: 7545567488757475919
+      tilempaShougun_40: -1945027305484788633
+      tilempaShougun_41: 5268849593321719954
+      tilempaShougun_42: -2406006210344301007
+      tilempaShougun_43: -6890380326301824546
+      tilempaShougun_44: 5856112705629833624
+      tilempaShougun_45: 7972979305668768005
+      tilempaShougun_46: -4955187804005081773
+      tilempaShougun_47: 2033567017680154696
+      tilempaShougun_48: -8920023840024591044
+      tilempaShougun_49: -2047123228404634116
+      tilempaShougun_5: -3930438469077203400
+      tilempaShougun_50: 1785015626539685336
+      tilempaShougun_51: -8292473347770461980
+      tilempaShougun_52: -8775988439238233715
+      tilempaShougun_53: 7171827404505958245
+      tilempaShougun_54: -1677921312117518636
+      tilempaShougun_55: -1624532369455055383
+      tilempaShougun_56: -7859797254365667305
+      tilempaShougun_57: -8868057878448881961
+      tilempaShougun_58: -8876078719354030625
+      tilempaShougun_59: -7500922112044748042
+      tilempaShougun_6: -5268060531377597037
+      tilempaShougun_60: -5300965809485342886
+      tilempaShougun_61: 4732558589281229950
+      tilempaShougun_62: -7590373110994929340
+      tilempaShougun_63: -158428036948729769
+      tilempaShougun_64: -4909351527902704168
+      tilempaShougun_65: -5943678406138940956
+      tilempaShougun_66: 5422416398860039564
+      tilempaShougun_67: -725007245050564717
+      tilempaShougun_68: -6522852073700776642
+      tilempaShougun_69: 2369750116566600605
+      tilempaShougun_7: -6364412889271614263
+      tilempaShougun_70: 5023336697331765410
+      tilempaShougun_8: -6948875578649875780
+      tilempaShougun_9: 5635247159809773307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

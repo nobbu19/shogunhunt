@@ -5,7 +5,6 @@ public class EnemyLantern : MonoBehaviour
     [Header("Giro")]
     [SerializeField] private float rotationSpeed = 40f; // grados por segundo (negativo = sentido horario)
     [SerializeField] private Vector2 startFacing = Vector2.down;
-    [SerializeField] private float bodyRadius = 0.3f;
 
     [Header("Visión")]
     [SerializeField] private Transform lightPivot;
@@ -13,16 +12,8 @@ public class EnemyLantern : MonoBehaviour
     [SerializeField, Range(10f, 180f)] private float viewAngle = 60f;
     [SerializeField] private LayerMask obstacleMask;
 
-    [Header("Detección")]
-    [SerializeField] private float detectionTime = 2f;
-    [SerializeField] private float cooldownSpeed = 1f;
-
     private Transform player;
     private Vector2 facing;
-    private float detectionTimer;
-    private bool detected;
-
-    public float DetectionProgress => detectionTimer / detectionTime;
 
     void Awake()
     {
@@ -39,21 +30,8 @@ public class EnemyLantern : MonoBehaviour
 
         if (player == null) return;
 
-        if (CanSeePlayer())
-            detectionTimer += Time.deltaTime;
-        else
-            detectionTimer = Mathf.Max(0f, detectionTimer - cooldownSpeed * Time.deltaTime);
-
-        if (detectionTimer >= detectionTime && !detected)
-        {
-            detected = true;
-            Debug.Log("¡Te vio!");
-            if (GameOverManager.Instance != null)
-                GameOverManager.Instance.ShowGameOver();
-        }
-
-        if (detectionTimer < detectionTime)
-            detected = false;
+        if (CanSeePlayer() && DetectionMeter.Instance != null)
+            DetectionMeter.Instance.ReportSeen();
     }
 
     private void Rotate()
